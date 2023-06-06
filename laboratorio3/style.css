@@ -45,8 +45,7 @@ nav a:hover {
 }
 
 aside {
-  clear: both;
-  width: 35%;
+  width: 30%;
   padding: 112.5px 20px 20px 20px;
   float: left;
 }
@@ -56,7 +55,7 @@ aside p {
   align-items: center;
   letter-spacing: 4px;
   font-family: sans-serif;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -111,25 +110,53 @@ aside form button:hover {
 }
 
 main {
-  width: 65%;
+  width: 70%;
   float: left;
   padding: 112.5px 20px 20px 20px;
 }
 
 main section .card {
-  width: 33.3%;
+  width: 30%;
   margin: 10px;
-  border: 2px solid aquamarine;
+  border: 2px solid darkgray;
   border-radius: 10px;
-  clear: both;
+  float: left;
 }
 
-main section .card .card-imagen {
-  background-image: url(../laboratorio3/img/foto.jpg);
+main section .card .card-imagen,
+.card-imagen1,
+.card-imagen2,
+.card-imagen3,
+.card-imagen4,
+.card-imagen5 {
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px 10px 0px 0px;
+}
+
+main section .card .card-imagen {
+  background-image: url(../laboratorio3/img/foto.jpg);
+}
+
+main section .card .card-imagen1 {
+  background-image: url(../laboratorio3/img/foto1.jpg);
+}
+
+main section .card .card-imagen2 {
+  background-image: url(../laboratorio3/img/foto2.jpg);
+}
+
+main section .card .card-imagen3 {
+  background-image: url(../laboratorio3/img/foto3.jpg);
+}
+
+main section .card .card-imagen4 {
+  background-image: url(../laboratorio3/img/foto4.jpg);
+}
+
+main section .card .card-imagen5 {
+  background-image: url(../laboratorio3/img/foto5.jpg);
 }
 
 main section .card .desciption {
@@ -147,11 +174,12 @@ main section .card button {
   cursor: pointer;
 }
 
-main section .card .precio {
-  background: green;
-  width: 25%;
+main section .card p {
+  background: darkgrey;
+  width: 30%;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: bold;
   border-radius: 0 0 10px 0;
 }
 
