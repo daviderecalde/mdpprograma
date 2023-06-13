@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  padding: 10px;
+}
+
+header .logo img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: darkred;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+header nav ul li a:hover {
+  color: lightsalmon;
+  border-bottom: 2px solid lightsalmon;
+}
+
+footer {
+  background-color: orange;
+  display: flex;
+  color: white;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  background-color: darkred;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .card {
+  width: 20%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+main .card .image img {
+  max-width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+main .card .price {
+  margin: 30px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-left: 2px solid orange;
+  text-align: center;
+}
+
+main .card .tittle {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+main .card .cart {
+  display: none;
+}
+
+main .card .price:hover {
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+main .card .price:hover .cart {
+  display: inline-block;
+}
+
+.flotante {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.flotante button {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.flotante button i {
+  color: white;
+  font-size: 2rem;
+}
+
+.flotante button:hover {
+  background-color: white;
+}
+
+.flotante button:hover > i {
+  color: green;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .contenedor {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+footer .redes {
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+}
